@@ -3,7 +3,7 @@ var admin = require("firebase-admin");
 var serviceAccount = require("./serviceAccountKey.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://<PROJECT_ID>.firebaseio.com"
+  databaseURL: "https://arduino-a00f7.firebaseio.com"
 });
 
 exports.ha = function(req, res) {

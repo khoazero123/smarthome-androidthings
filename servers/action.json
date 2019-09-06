@@ -11,7 +11,7 @@
     "automation" :
     {
       "name": "automation",
-      "url": "<CLOUD_FUNCTION_ENDPOINT>"
+      "url": "https://us-central1-arduino-a00f7.cloudfunctions.net/ha"
     }
   }
 }
